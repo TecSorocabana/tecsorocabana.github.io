@@ -23,7 +23,7 @@ Pelican](https://getpelican.com).
 Caso tenha dificuldades para escrever Markdown, veja esses editores online que
 auxiliam sua escrita:
 
-* [StackEdit].(https://stackedit.io/app)
+* [StackEdit](https://stackedit.io/app).
 * [Dillinger](https://dillinger.io).
 
 ## Como contribuir desenvolvendo
