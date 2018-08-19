@@ -1,9 +1,49 @@
-{% extends "index.html" %}
+{% extends "base.html" %}
 
 {% block title %}
-  {{ category }} Posts | {{ SITENAME }}
+  {{ category|capitalize }} | {{ SITENAME }}
 {% endblock %}
 
 {% block page_header %}
-  {{ category }} Posts
+  {{ category|capitalize }}
+{% endblock %}
+
+
+{% block content %}
+  {% for article in dates_page.object_list %}
+    <article class="row teaser">
+      <header class="col-sm-4 text-muted">
+        <ul>
+          <li title="{{ article.date.isoformat() }}">
+            <i class="fa fa-clock-o"></i>
+            {{ article.locale_date }}
+          </li>
+          <li>
+            <i class="fa fa-folder-open-o"></i>
+            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+          </li>
+          {% if not HIDE_AUTHORS and article.authors %}
+            <li>
+              <i class="fa fa-user-o"></i>
+              {% for author in article.authors %}
+                <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </li>
+          {% endif %}
+        </ul>
+      </header>
+      <div class="col-sm-8">
+        <h4 class="title">
+          <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+        </h4>
+        <div class="content">
+          {{ article.summary|striptags }}
+        </div>
+      </div>
+    </article>
+    {% if not loop.last %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+  {% include 'include/pagination.html' %}
 {% endblock %}
