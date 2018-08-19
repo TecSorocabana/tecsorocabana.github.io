@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>/eventos/encontro-gdg-sorocaba-082018.html</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>/eventos/linux-dev-conf-br-082018.html</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>/eventos/coding-dojo-python-092018.html</loc>
+      <priority>0.8</priority>
+    </url>
 </urlset>

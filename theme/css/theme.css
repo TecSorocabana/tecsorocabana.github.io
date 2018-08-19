@@ -58,7 +58,6 @@ hr {
 .header ul {
   font-size: 1.25rem;
   font-weight: 300;
-  text-transform: lowercase;
 }
 
 .main {
@@ -86,10 +85,6 @@ hr {
 
 .teaser header li {
   margin-bottom: .5rem;
-}
-
-.teaser .content p {
-  margin-bottom: 0;
 }
 
 .article header ul,
