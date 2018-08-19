@@ -35,6 +35,7 @@ DEFAULT_METADATA = {
     'description': 'Site da comunidade de tecnologia de Sorocaba',
 }
 
+ARTICLE_URL = ARTICLE_SAVE_AS = '{category}/{slug}.html'
 ARTICLE_ORDER_BY = 'date'
 
 ARCHIVES_SAVE_AS = 'blog_index.html'
