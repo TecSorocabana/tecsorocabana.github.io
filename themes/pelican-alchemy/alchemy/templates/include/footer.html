@@ -4,7 +4,9 @@
       <li class="list-inline-item"><a href="{{ SITEURL }}/authors.html">Autores</a></li>
     {% endif %}
     <li class="list-inline-item"><a href="{{ SITEURL }}/blog_index.html">Blog</a></li>
-    <li class="list-inline-item"><a href="{{ SITEURL }}/categories.html">Tópicos</a></li>
+    {% if categories|length > 1 %}
+      <li class="list-inline-item"><a href="{{ SITEURL }}/categories.html">Tópicos</a></li>
+    {% endif %}
     {% if tags|length %}
       <li class="list-inline-item"><a href="{{ SITEURL }}/tags.html">Tags</a></li>
     {% endif %}
