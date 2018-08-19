@@ -47,10 +47,6 @@ SLUGIFY_SOURCE = 'basename'
 LOAD_CONTENT_CACHE = False
 CACHE_CONTENT = False
 
-LINKS = (
-    ('Eventos', 'category/eventos.html'),
-)
-
 # Theme specific settings
 ICONS = (
     ('slack', 'http://bit.ly/slack-tecsorocabana'),
