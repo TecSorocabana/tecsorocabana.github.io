@@ -1,0 +1,32 @@
+{% extends "article.html" %}
+
+
+{% block content %}
+  <article class="row teaser article">
+    <header class="col-sm-4 text-muted">
+      <ul>
+        <li title="{{ article.date.isoformat() }}">
+          <i class="fa fa-clock-o"></i>
+          {{ article.locale_date }}
+        </li>
+        <li>
+          <i class="fa fa-map-marker"></i>
+          {% if article.event_gmaps %}
+            <a href="{{ article.event_gmaps }}" target="_blank">
+              {{ article.event_address }} ({{ article.event_local }})
+            </a>
+          {% else %}
+            {{ article.event_address }} ({{ article.event_local }})
+          {% endif %}
+        </li>
+      </ul>
+    </header>
+    <div class="col-sm-8">
+      <h4 class="title">{{ article.title }}</h4>
+      <div class="content">
+        {{ article.content }}
+      </div>
+    </div>
+  </article>
+  {% include 'include/comments.html' %}
+{% endblock %}
