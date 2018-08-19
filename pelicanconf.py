@@ -41,7 +41,7 @@ ARCHIVES_SAVE_AS = 'blog_index.html'
 
 PAGE_URL = PAGE_SAVE_AS = '{slug}.html'
 
-SLUGIFY_SOURCE = 'title'
+SLUGIFY_SOURCE = 'basename'
 
 LOAD_CONTENT_CACHE = False
 CACHE_CONTENT = False
