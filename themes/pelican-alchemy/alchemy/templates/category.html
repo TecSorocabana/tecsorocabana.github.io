@@ -8,6 +8,9 @@
   {{ category|capitalize }}
 {% endblock %}
 
+{% if category == 'eventos' %}
+{% block page_subheader%}Os eventos listados aqui são meras divulgações da comunidade TecSorocabana. Não os organizamos nem nos responsabilizamos pelos mesmos.{% endblock %}
+{% endif %}
 
 {% block content %}
   {% for article in dates_page.object_list %}
