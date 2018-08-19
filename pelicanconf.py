@@ -56,3 +56,4 @@ SITEIMAGE = 'https://i.imgur.com/3w1tsPS.png'
 SITESUBTITLE = 'Comunidade de profissionais de tecnologia de Sorocaba'
 DESCRIPTION = 'TecSorocabana é a comunidade de profissionais de tecnologia de Sorocaba'
 HIDE_AUTHORS = True
+NEWEST_FIRST_ARCHIVES = False
