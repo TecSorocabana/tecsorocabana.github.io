@@ -26,6 +26,13 @@ auxiliam sua escrita:
 * [StackEdit](https://stackedit.io/app).
 * [Dillinger](https://dillinger.io).
 
+## Submentendo um evento
+
+* Faça um fork desse repositório
+* Crie a sua publicação em formato [Markdown](https://en.wikipedia.org/wiki/Markdown) ou [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) dentro
+  do diretório `content/eventos/`. Siga o modelo dos eventos já criados.
+* Faça um pull request e acompanhe a revisão / aprovação da sua publicação.
+
 ## Como contribuir desenvolvendo
 
 A maior parte do trabalho, considerando a geração dos arquivos estáticos, é
