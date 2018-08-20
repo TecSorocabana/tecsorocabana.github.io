@@ -1,5 +1,6 @@
 Title: Coding Dojo Python Set/2018
 Date: 2018-09-01
+Hour: 09:00 - 12:00
 Summary: Coding Dojo de Python no Space. Setembro/2018
 Event_local: Space Coworking
 Event_Address: R. Elías Ayres do Amaral, 226. Sorocaba/SP.

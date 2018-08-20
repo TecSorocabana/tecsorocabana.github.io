@@ -1,5 +1,6 @@
 Title: Encontro GDG Sorocaba Ago/2018
 Date: 2018-08-21
+Hour: 19:00 - 21:00
 Summary: Encontro GDG Sorocaba de Agosto
 Event_local: SESC
 Event_Address: R. Barão de Piratininga, 555

@@ -1,5 +1,6 @@
 Title: Linux Developer Conference Brazil 2018
 Date: 2018-08-25
+Hour: 08:00
 Summary: We are proud to announce the second edition of Linux Developer Conference Brazil. linuxdev-br is a conference born to be a meeting point for communities developing Free and Open Source Software (FOSS) projects that constitute the Core of modern Linux systems, be it in smartphones, tablets, TVs, cars or in the Cloud. A space to connect developers, enthusiasts and companies and to foster both the development of the communities and the Brazilian FOSS market.
 Event_local: UNICAMP
 Event_Address: Av. Érico Veríssimo, 500 - Campinas
