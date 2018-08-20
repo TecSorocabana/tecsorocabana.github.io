@@ -18,9 +18,15 @@
       <header class="col-sm-4 text-muted">
         <ul>
           <li title="{{ article.date.isoformat() }}">
-            <i class="fa fa-clock-o"></i>
+            <i class="fa fa-calendar"></i>
             {{ article.locale_date }}
           </li>
+          {% if category == 'eventos' %}
+            <li title="{{ article.hour }}">
+              <i class="fa fa-clock-o"></i>
+              {{ article.hour }}
+            </li>
+          {% endif %}
           <li>
             <i class="fa fa-folder-open-o"></i>
             <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>

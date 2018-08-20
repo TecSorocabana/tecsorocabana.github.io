@@ -6,8 +6,12 @@
     <header class="col-sm-4 text-muted">
       <ul>
         <li title="{{ article.date.isoformat() }}">
-          <i class="fa fa-clock-o"></i>
+          <i class="fa fa-calendar"></i>
           {{ article.locale_date }}
+        </li>
+        <li title="{{ article.hour }}">
+          <i class="fa fa-clock-o"></i>
+          {{ article.hour }}
         </li>
         <li>
           <i class="fa fa-map-marker"></i>
